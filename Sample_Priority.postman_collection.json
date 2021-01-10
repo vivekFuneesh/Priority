@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "03301e4d-473d-4d83-81a7-0f37ae5ba89e",
+		"name": "Sample_Priority",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/addArea/SocialWork?authentication-key=passcodepasscodepasscode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reex\":\"((0+)+y)\",\r\n    \"requestBoy\":\"kbfefejjjnjnjnj\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/addArea/SocialWork?authentication-key=passcodepasscodepasscode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addArea",
+						"SocialWork"
+					],
+					"query": [
+						{
+							"key": "authentication-key",
+							"value": "passcodepasscodepasscode"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/addRatings/vivek/Relationships/Priority/1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/addRatings/vivek/Relationships/Priority/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addRatings",
+						"vivek",
+						"Relationships",
+						"Priority",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/addProperty/Ignorance?authentication-key=passcodepasscodepasscode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/addProperty/Ignorance?authentication-key=passcodepasscodepasscode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addProperty",
+						"Ignorance"
+					],
+					"query": [
+						{
+							"key": "authentication-key",
+							"value": "passcodepasscodepasscode"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
